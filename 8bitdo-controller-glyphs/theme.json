@@ -1,0 +1,16 @@
+{
+  "name": "8bitdo-controller-glyphs",
+  "display_name": "8BitDo Controller Glyphs",
+  "author": "DeckFilter",
+  "version": "v1.0",
+  "description": "Adds 8BitDo Ultimate controller glyphs to replace the Xbox One glyphs.",
+  "target": "System-Wide",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": ["bigpicture", "QuickAccess", "MainMenu"]
+  },
+
+  "tabs": {
+    "all": ["bigpicture", "QuickAccess", "MainMenu"]
+  }
+}
