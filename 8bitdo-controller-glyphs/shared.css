@@ -1,14 +1,14 @@
 :root {
-  --8bitdo-guide-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo_button_guide.svg);
-  --8bitdo-controller-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo-ultimate-config.svg);
+  --bitdo-guide-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo_button_guide.svg);
+  --bitdo-controller-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo-ultimate-config.svg);
 }
 
 .controller_xboxone .rlz-U2wn9ktH5Z9trfpZa {
-  background-image: var(--8bitdo-controller-img);
+  background-image: var(--bitdo-controller-img);
 }
 
 img[src='/steaminputglyphs/xbox_button_logo.svg'] {
-  content: var(--8bitdo-guide-img);
+  content: var(--bitdo-guide-img);
 }
 
 img[src='/steaminputglyphs/xbox_button_select.svg'] {
