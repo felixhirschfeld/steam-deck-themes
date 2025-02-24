@@ -1,13 +1,10 @@
 # 8BitDo Ultimate Controller Glyphs
 
-![image](preview.png)
+![image](preview.jpg)
 
-A theme that changes the default controller glyphs to ones that match the 8BitDo Ultimate Controller. It replaces 3 Glyphs (Guide, Menu, Select) and the Controller Config image.
+Changes the Xbox Controller glyphs to ones that match the 8BitDo Ultimate Controller. It replaces 3 Glyphs (Guide, Menu, Select) and the Controller Config image.
 
 ## Install
-
-Get it from the Deck Themes store:
-https://deckthemes.com/themes/view?themeId=REPLACE
 
 Decky and the CSS Loader Plugin must already be installed and enabled.
 
