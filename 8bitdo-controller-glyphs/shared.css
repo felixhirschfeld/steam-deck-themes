@@ -1,10 +1,15 @@
 :root {
   --bitdo-guide-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo_button_guide.svg);
   --bitdo-controller-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo_ultimate_controller_config.svg);
+  --bitdo-2c-controller-img: url(/themes_custom/8bitdo-controller-glyphs/assets/8bitdo_ultimate_2c_controller_config.svg);
 }
 
 .controller_xboxone .rlz-U2wn9ktH5Z9trfpZa {
   background-image: var(--bitdo-controller-img);
+}
+
+.controller_generic .rlz-U2wn9ktH5Z9trfpZa {
+  background-image: var(--bitdo-2c-controller-img);
 }
 
 img[src='/steaminputglyphs/xbox_button_logo.svg'] {
@@ -15,6 +20,14 @@ img[src='/steaminputglyphs/xbox_button_select.svg'] {
   content: url(/steaminputglyphs/switchpro_button_minus.svg);
 }
 
+img[src='/steaminputglyphs/xbox360_button_select.svg'] {
+  content: url(/steaminputglyphs/switchpro_button_minus.svg);
+}
+
 img[src='/steaminputglyphs/xbox_button_start.svg'] {
+  content: url(steaminputglyphs/switchpro_button_plus.svg);
+}
+
+img[src='/steaminputglyphs/xbox360_button_start.svg'] {
   content: url(steaminputglyphs/switchpro_button_plus.svg);
 }
